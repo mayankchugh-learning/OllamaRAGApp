@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 ollamaRagenv
 .DS_Store
+vector
