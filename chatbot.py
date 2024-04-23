@@ -2,6 +2,10 @@ from langchain.llms import Ollama
 import streamlit as st
 
 
+with st.sidebar:
+    "[View the source code](https://github.com/streamlit/llm-examples/blob/main/Chatbot.py)"
+    "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
+
 
 llm = Ollama(model="llama2")
 
