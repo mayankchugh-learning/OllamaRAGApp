@@ -6,7 +6,8 @@ from langchain.vectorstores import Chroma
 import streamlit as st
 
 
-st.title("📝 File Q&A with Anthropic")
+
+st.title("📝 File Q&A with Ollama")
 uploaded_file = st.file_uploader("Upload an article", type=("txt", "md"))
 question = st.text_input(
     "Ask something about the article",

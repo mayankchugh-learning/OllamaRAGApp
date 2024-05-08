@@ -7,10 +7,6 @@ llm = Ollama(model="llama2")
 
 st.title("📝 Chat with feedback (Trubrics) using Ollama")
 
-"""
-In this example, we're using [streamlit-feedback](https://github.com/trubrics/streamlit-feedback) and Trubrics to collect and store feedback
-from the user about the LLM responses.
-"""
 
 if "messages" not in st.session_state:
     st.session_state.messages = [

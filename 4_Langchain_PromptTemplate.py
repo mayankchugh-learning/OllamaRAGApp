@@ -6,7 +6,7 @@ st.title("🦜🔗 Langchain - Blog Outline Generator App using Ollama")
 
 def blog_outline(topic):
     # Instantiate LLM model
-    llm = Ollama(model="llama2")
+    llm = Ollama(model="llama3")
     # Prompt
     template = "As an experienced data scientist and technical writer, generate an outline for a blog about {topic}."
     prompt = PromptTemplate(input_variables=["topic"], template=template)

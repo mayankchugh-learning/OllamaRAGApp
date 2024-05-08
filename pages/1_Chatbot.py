@@ -2,8 +2,10 @@ from langchain.llms import Ollama
 import streamlit as st
 
 
+with st.sidebar:
+    "[![Open in GitHub](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-llm = Ollama(model="llama3")
+llm = Ollama(model="llama2")
 
 # Streamlit UI setup
 st.title("💬 Chatbot")
